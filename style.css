@@ -1,0 +1,189 @@
+#mynav{
+    background: black;
+    opacity: .9;
+}
+/* carousel */
+
+.carousel-item{
+    height: 450px;
+}
+
+
+.carousel-inner h2{
+    color: white;
+}
+.carousel-indicators li{
+    width:14px;
+    height:14px;
+    border-radius: 100%;
+}
+.carousel-img-1{
+    background:linear-gradient(rgba(0,0,0,.4),rgba(0, 0, 0,0.4)), url("img/brown-leaf-trees-on-forest-589816.jpg") no-repeat bottom;
+    background-size:cover;
+    
+}
+.carousel-img-2{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0, 0, 0,0.4)), url("img/brown-deer-near-tree-3329812.jpg") no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: initial;
+    
+    
+}
+.carousel-img-3{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0, 0, 0,0.4)), url("img/silhouette-photo-of-fence-during-dawn-2282307.jpg") no-repeat bottom;
+    background-size:cover;
+    
+}
+
+
+/* text */
+.lead{
+    font-size:1.08rem;
+}
+
+
+
+/* get-start */
+#get-start{
+    background: url("img/adult-beautiful-casual-cute-372042.jpg") no-repeat top;
+   
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 250px;
+    position: relative;
+    
+
+}
+#get-start .dark-overlay{
+    background:rgb(0, 0, 0,0.7);
+    top:0px;
+    bottom: 0px;
+    width:100%;
+    height: 100%;
+    position: absolute;
+}
+@media(max-width:420px){
+    #get-start h3{
+        padding-top:-3px;
+        margin-top: -3px;
+        font-size: 1.2rem;
+    }
+        
+    
+ 
+}
+
+/* video */
+#video-section{
+    background: url("img/business-computer-connection-contemporary-450035.jpg") no-repeat;
+    background-attachment: fixed;
+    min-height: 250px;
+    background-size: cover;
+
+    position: relative;
+}
+    
+
+
+#vide0-section .dark-overlay{
+    background:rgb(0, 0, 0,0.7);
+    top:0px;
+    bottom: 0px;
+    width:100%;
+    height: 100%;
+    position: absolute;
+}
+#video-section .fa{
+    font-size: 45px;
+    
+}
+/* icon */
+#home-icon .fa{
+    font-size:45px;
+    margin-bottom:5px;
+
+}
+/* photo-gallery */
+#photo-gallery img{
+    width:350px;
+    height:233px;
+    
+}
+/* footer */
+#footer-section{
+    background: black;
+}
+
+
+/*1st Page About us */
+/* caption */
+#header{
+    background: url("img/brown-leaf-trees-on-forest-589816.jpg") no-repeat bottom;
+    background-size: cover;
+    min-height:250px;
+}
+
+/* caption-info */
+#information img{
+    width:350px;
+    height: 350px;
+}
+
+
+/* icon-box */
+#icon-box .fa{
+    font-size: 45px;
+    
+}
+/* testimonial */
+#testimonial .slick-prev::before{
+    color:rgb(24, 20, 20);
+
+}
+#testimonial .slick-next::before{
+    color:rgb(24, 20, 20);
+
+}
+/* 2nd page */
+#service-header{
+    background: url("img/depth-of-field-photography-of-brown-tree-logs-923167.jpg") no-repeat center;
+    background-size: cover;
+    min-height: 250px;
+}
+/* 3rd page */
+#blog-header{
+    background: url("img/business-computer-connection-contemporary-450035.jpg") no-repeat center;
+ 
+    background-size: cover;
+    min-height: 250px;
+}
+
+#blog-section img{
+    height:300px;
+    
+}
+/* contact */
+#contact-header{
+    background: url("img/apple-devices-books-business-coffee-572056.jpg") no-repeat bottom;
+   
+    background-size: cover;
+    
+    min-height: 250px;
+}
+/* overlay for every pages header */
+.overlay{
+    background: rgb(0, 0, 0,0.3);
+    min-height:250px;
+}
+
+@media(max-width:760px){
+    
+    #mycarousel h2{
+        font-size:1.9rem;
+    }
+
+    
+}
+
+
